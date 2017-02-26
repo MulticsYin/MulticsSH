@@ -1,0 +1,35 @@
+1 需要先安装pip
+
+	sudo apt-get install python-pip
+
+2 利用 pip 安装 Django
+
+	(sudo) pip install Django
+	或者 (sudo) pip install Django==1.8.16 或者 pip install Django==1.10.3
+
+3 如果想升级 pip 可以用：
+
+	(sudo) pip install --upgrade pip
+
+4 搭建多个互不影响的开发环境：
+  用 virtualenv 来管理多个开发环境，virtualenvwrapper 使得virtualenv变得更好用
+  # 安装:
+	(sudo) pip install virtualenv virtualenvwrapper
+  修改 .bashrc添加以下语句：
+	export WORKON_HOME=$HOME/.virtualenvs
+	export PROJECT_HOME=$HOME/workspace
+	source /usr/local/bin/virtualenvwrapper.sh
+  重启终端。
+
+  使用方法：
+	mkvirtualenv zqxt：创建运行环境zqxt
+	workon zqxt: 工作在 zqxt 环境 或 从其它环境切换到 zqxt 环境
+	deactivate: 退出终端环境
+
+  其它的：
+	rmvirtualenv ENV：删除运行环境ENV
+	mkproject mic：创建mic项目和运行环境mic
+	mktmpenv：创建临时运行环境
+	lsvirtualenv: 列出可用的运行环境
+	lssitepackages: 列出当前环境安装了的包
+创建的环境是独立的，互不干扰，无需sudo权限即可使用 pip 来进行包的管理。
