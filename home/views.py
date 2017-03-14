@@ -6,7 +6,7 @@ from django.shortcuts import redirect
 # Create your views here.
 #主目录，本项目不涉及前端，故只保留一个接口而不进行开发。
 def index(request):
-    return HttpResponse(u'Welcome to gree Smart Home...')
+    return HttpResponse(u'Welcome to MulticsYin Smart Home...')
 
 # 定义用户信息返回的函数。
 def sh_user(request,sh_id):
