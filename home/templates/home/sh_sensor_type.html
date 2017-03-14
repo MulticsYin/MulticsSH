@@ -1,0 +1,15 @@
+
+<head>
+    <title> 传感器类型 </title>
+</head>
+
+<p> 传感器的类型及描述，目的在于方便扩展传感器类型。 </p>
+
+{% block content %}
+
+<p>sh_id             ：{{ tb_sensor_type.sh_id}}</p>
+<p>sh_name           ：{{ tb_sensor_type.sh_name }}</p>
+<p>sh_description    ：{{ tb_sensor_type.sh_description }}</p>
+<p>sh_status         ：{{ tb_sensor_type.sh_status }}</p>
+
+{% endblock content %}

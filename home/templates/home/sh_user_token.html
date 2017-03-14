@@ -1,0 +1,14 @@
+
+<head>
+    <title> 用户令牌 </title>
+</head>
+
+<p> 用户的令牌，该令牌在用户每次登陆时重新生成，并确保唯一，一定时间后会自动失效，需要重新登陆。 </p>
+
+{% block content %}
+
+<p>sh_user_id        ：{{ tb_user_token.sh_user_id}}</p>
+<p>sh_token          ：{{ tb_user_token.sh_token }}</p>
+<p>sh_deadline       ：{{ tb_user_token.sh_deadline }}</p>
+
+{% endblock content %}

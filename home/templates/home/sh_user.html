@@ -1,0 +1,21 @@
+
+<head>
+    <title> 用户信息 </title>
+</head>
+
+<p> 用户的基本信息 </p>
+
+{% block content %}
+
+<p>sh_id             ：{{ tb_user.sh_id}}</p>
+<p>sh_username       ：{{ tb_user.sh_username }}</p>
+<p>sh_password       ：{{ tb_user.sh_password }}</p>
+<p>sh_email          ：{{ tb_user.sh_email }}</p>
+<p>sh_token          ：{{ tb_user.sh_token }}</p>
+<p>sh_token_exptime  ：{{ tb_user.sh_token_exptime }}</p>
+<p>sh_regtime        ：{{ tb_user.sh_regtime }}</p>
+<p>sh_status         ：{{ tb_user.sh_status }}</p>
+<p>sh_apikey         ：{{ tb_user.sh_apikey }}</p>
+<p>sh_about          ：{{ tb_user.sh_about }}</p>
+
+{% endblock content %}

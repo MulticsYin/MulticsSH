@@ -1,0 +1,6 @@
+*.pyc
+build/*
+dist/*
+bootstrap_admin.egg-info/*
+*.sublime-project
+*.sublime-workspace

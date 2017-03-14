@@ -1,0 +1,15 @@
+
+<head>
+    <title> 数据点 </title>
+</head>
+
+<p> 传感器的数据，记录某个传感器的某个时间点下的数据 </p>
+
+{% block content %}
+
+<p>sh_id             ：{{ tb_datapoint_list.sh_id}}</p>
+<p>sh_sensor_id      ：{{ tb_datapoint_list.sh_sensor_id }}</p>
+<p>sh_timestamp      ：{{ tb_datapoint_list.sh_timestamp }}</p>
+<p>sh_value          ：{{ tb_datapoint_list.sh_value }}</p>
+
+{% endblock content %}

@@ -1,0 +1,20 @@
+
+<head>
+    <title> 设备 </title>
+</head>
+
+<p> 智能家居系统设备信息 </p>
+
+{% block content %}
+
+<p>sh_id             ：{{ tb_device.sh_id}}</p>
+<p>sh_name           ：{{ tb_device.sh_name }}</p>
+<p>sh_tags           ：{{ tb_device.sh_tags }}</p>
+<p>sh_locate         ：{{ tb_device.sh_locate }}</p>
+<p>sh_user_id        ：{{ tb_device.sh_user_id }}</p>
+<p>sh_create_time    ：{{ tb_device.sh_create_time }}</p>
+<p>sh_last_active    ：{{ tb_device.sh_last_active }}</p>
+<p>sh_status         ：{{ tb_device.sh_status }}</p>
+<p>sh_about          ：{{ tb_device.sh_about }}</p>
+
+{% endblock content %}

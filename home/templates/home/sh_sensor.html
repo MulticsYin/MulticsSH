@@ -1,0 +1,20 @@
+
+<head>
+    <title> 传感器 </title>
+</head>
+
+<p> 智能家居系统设备所包含的传感器的信息 </p>
+
+{% block content %}
+
+<p>sh_id             ：{{ tb_sensor.sh_id}}</p>
+<p>sh_name           ：{{ tb_sensor.sh_name }}</p>
+<p>sh_tags           ：{{ tb_sensor.sh_tags }}</p>
+<p>sh_type           ：{{ tb_sensor.sh_type }}</p>
+<p>sh_device_id      ：{{ tb_sensor.sh_device_id }}</p>
+<p>sh_last_update    ：{{ tb_sensor.sh_last_update }}</p>
+<p>sh_last_data      ：{{ tb_sensor.sh_last_data }}</p>
+<p>sh_status         ：{{ tb_sensor.sh_status }}</p>
+<p>sh_about          ：{{ tb_sensor.sh_about }}</p>
+
+{% endblock content %}

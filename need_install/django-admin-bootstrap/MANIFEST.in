@@ -1,0 +1,5 @@
+include README.rst
+include LICENSE
+recursive-include bootstrap_admin *
+recursive-include bootstrap_admin/static *
+recursive-include bootstrap_admin/templates *
