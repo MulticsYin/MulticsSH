@@ -1,9 +1,8 @@
 # MulticsSmartHome
 
 
-     现在平台框架已大体做好，数据库和服务器都使用框架默认或自带的模块，后期需要进行开		
+     现在平台框架已大体做好，数据库和服务器都使用框架默认或自带的模块，后期需要进行开
 发的话需要进行MySQL，Nginx，Apache等配置或开发。
-
     构建开发及运行环境：
     1、安装Python；安装在need_install目录的python安装包，最好将2.7和3.5的都安装一下。
     2、安装Django；进入Django-1.8.17目录，命令行运行：python setup.py install
