@@ -23,7 +23,7 @@ from home import views
 
 # 定义添加各接口的URL。
 urlpatterns = [
-    # 定义后台URL
+    # 定义后台URLhttp://127.0.0.1:8000/admin
     url(r'^admin/', include(admin.site.urls)),
 
     # 此为使用插件优化输入文本框所添加的。
