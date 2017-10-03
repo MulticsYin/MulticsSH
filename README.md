@@ -1,6 +1,6 @@
 # MulticsSmartHome
 
-    该项目为在格力电器实习时自己使用Django 开发的一个小平台。		
+    该项目为在大四实习时自己使用Django 开发的一个小平台。		
     
     该项目模仿Yeelink,实现相应的接口,采用Python语言开发,Web框架使用的是Django.
     现在平台框架已大体做好，数据库和服务器都使用框架默认或自带的模块，后期需要进行开发的话需要进行MySQL，Nginx，Apache等配置或开发。
