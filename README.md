@@ -2,6 +2,7 @@
 该项目为在大四实习时自己使用Django 开发的一个小平台。		
 
 该项目模仿Yeelink,实现相应的接口,采用Python语言开发,Web框架使用的是Django.  
+
 现在平台框架已大体做好，数据库和服务器都使用框架默认或自带的模块，后期需要进行开发的话需要进行MySQL，Nginx，Apache等配置或开发。  
 
 构建开发及运行环境：  
@@ -48,14 +49,9 @@ eg:http://127.0.0.1:8000/sh_sensor_type/1/
 数据点的接口：http://127.0.0.1:8000/sh_datapoint_list/<sensor_id>  
 eg:http://127.0.0.1:8000/sh_datapoint_list/1/  
 
-
 参考博文：  
-
-Django 中文文档 1.8：http://python.usyiyi.cn/django/index.html		
-
-Django 基础教程（自强学堂）：http://www.ziqiangxuetang.com/django/django-tutorial.html		
-
-谈谈互联网后端基础设施：http://www.rowkey.me/blog/2016/08/27/server-basic-tech-stack/		
-
-智能家居云平台设计：http://www.cnblogs.com/star91/p/4889118.html		
+* [Django 中文文档 1.8](http://python.usyiyi.cn/django/index.html)
+* [Django 基础教程（自强学堂）](http://www.ziqiangxuetang.com/django/django-tutorial.html)
+* [谈谈互联网后端基础设施](http://www.rowkey.me/blog/2016/08/27/server-basic-tech-stack/)
+* [智能家居云平台设计](http://www.cnblogs.com/star91/p/4889118.html)
 
