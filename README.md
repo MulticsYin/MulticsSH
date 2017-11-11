@@ -55,3 +55,8 @@ eg:http://127.0.0.1:8000/sh_datapoint_list/1/
 * [谈谈互联网后端基础设施](http://www.rowkey.me/blog/2016/08/27/server-basic-tech-stack/)
 * [智能家居云平台设计](http://www.cnblogs.com/star91/p/4889118.html)
 
+
+## License
+
+MulticsDevOps source code is licensed under the 
+[Apache Licence, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
