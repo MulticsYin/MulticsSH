@@ -1,4 +1,4 @@
-# MulticsSmartHome
+# MulticsSH
 该项目为在大四实习时自己使用Django 开发的一个小平台。		
 
 该项目模仿Yeelink,实现相应的接口,采用Python语言开发,Web框架使用的是Django.  
