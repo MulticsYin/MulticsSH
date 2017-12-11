@@ -16,9 +16,11 @@ CentOS用户直接运行：“ sudo yum install 软件包名”
 
 运行项目：  
 在项目目录下面打开命令行窗口，运行以下命令：  
+```
 1、python manage.py makemigrations home  
 2、python manage.py migrate  
 3、python manage.py runserver   
+```
 注：默认端口8000.如果提示端口被占用，可以运行：python manage.py runserver 8001  
 
 在提示以下信息后  
